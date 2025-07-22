@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #757373; /* Light beige to match tech icon contrast */
+  color: #ffffff;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.0rem;
+  font-family: Garamond;
+  color: #ffffff;   
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: Garamond;
+}
+
+nav a:hover {
+  color: rebeccapurple;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 50%;
+  font-family: Garamond;
+  color: #ffffff;
+}
+
+.hero-text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  font-family: Garamond;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-family: Garamond;
+}
+
+.hero-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 80%;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+}
+
+.tech-stack {
+  margin-top: 60px;
+  text-align: center;
+  font-family: Garamond;
+  color: #ffffff;
+}
+
+.stack-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.stack-icon {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.4s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.stack-icon:hover {
+  transform: scale(1.2) rotate(2deg);
+  filter: brightness(1.2);
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
+
+/* Ensures only social icons are smaller, keeps tech icons full */
+.stack-icons img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Garamond;
+  color: #ffffff;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+}
+
+.social-link img {
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+}
