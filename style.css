@@ -308,3 +308,17 @@ footer {
   font-family: Garamond;
   border-top: 1px solid #ccc;
 }
+
+.download-cv {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  background-color: #0077cc;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-cv i {
+  margin-right: 8px;
+}
