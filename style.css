@@ -308,32 +308,3 @@ footer {
   font-family: Garamond;
   border-top: 1px solid #ccc;
 }
-
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  section {
-    padding: 20px 10px;
-  }
-
-  form input,
-  form textarea {
-    width: 100%;
-  }
-
-  .socials img {
-    width: 25px;
-    height: 25px;
-  }
-}
-
-
-
