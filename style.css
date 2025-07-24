@@ -96,7 +96,7 @@ display: inline;
     position: absolute;
     top: 100%;
     right: 0;
-    background-color:white;
+    background-color:transparent;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
