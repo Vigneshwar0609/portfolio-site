@@ -22,7 +22,7 @@ html {
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: teal; 
+  background-color: darkcyan; 
   color: #ffffff;
   padding: 20px;
   margin: 0;
@@ -101,9 +101,10 @@ nav a {
   font-family: Garamond;
   font-size: large;
   font-variant: small-caps;
-  color: teal;
-  background-color: #ffffff;
+  color: white;
+  background-color: #5e5d5d;
   padding: 20px 40px;
+  border-radius: 8px;
 }
 
 .stack-icons {
