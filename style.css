@@ -5,6 +5,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -271,8 +272,21 @@ cursor: pointer;
 
 }
 
-.about-pic{
-    border-radius: 2rem;
+.about-pic {
+  border-radius: 2rem;
+  height: auto;
+  animation: zoomFade 10s ease-in-out infinite alternate;
+}
+
+@keyframes zoomFade {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
 }
 
 .arrow {
@@ -348,7 +362,7 @@ article .icon{
 }
 
 .experience-sub-title{
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     text-decoration-thickness: 500px;
 }
